@@ -16,6 +16,13 @@ const doubledArray = doubleArrayElements(exampleArray2)
 console.log('Подвоєні елементи масиву:', doubledArray)
 
 //#SkillsManager
+
+	// export class SkillsManager {
+	// 	constructor() {
+	// 		this.skills = [];
+	// 	}
+	// }
+	
 class SkillsManager{
 	constructor() {
 		this.skills = [];
@@ -64,3 +71,5 @@ console.log(dateCalculator.getResult())
 
 dateCalculator.subtractDays(3)
 console.log(dateCalculator.getResult())
+
+
