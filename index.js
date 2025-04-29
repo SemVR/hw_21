@@ -16,28 +16,7 @@ const doubledArray = doubleArrayElements(exampleArray2)
 console.log('Подвоєні елементи масиву:', doubledArray)
 
 //#SkillsManager
-
-	// export class SkillsManager {
-	// 	constructor() {
-	// 		this.skills = [];
-	// 	}
-	// }
-	
-class SkillsManager{
-	constructor() {
-		this.skills = [];
-	}
-	addSkill(skill){
-		if (typeof skill === 'string' && skill.trim().length >= 2){
-			this.skills.push(skill.trim());
-			return skill.trim();
-		}
-		return null;
-	}
-	getAllSkills(){
-		return this.skills;
-	}
-}
+import SkillsManager from './SkillsManager.js';
 
 const skillsManager = new SkillsManager()
 
